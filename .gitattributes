@@ -1,0 +1,4 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+.psb filter=lfs diff=lfs merge=lfs -text
+*.psb filter=lfs diff=lfs merge=lfs -text
